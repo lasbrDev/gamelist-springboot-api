@@ -1,8 +1,9 @@
 package br.com.lasbr.gamelist.dto;
 
 import br.com.lasbr.gamelist.entities.Game;
+import br.com.lasbr.gamelist.projections.GameMinProjection;
 
-    public class GameMinDTO {
+public class GameMinDTO {
 
         private Long id;
         private String title;
@@ -19,6 +20,14 @@ import br.com.lasbr.gamelist.entities.Game;
             year = entity.getYear();
             imgUrl = entity.getImgUrl();
             shortDescription = entity.getShortDescription();
+        }
+
+        public GameMinDTO(GameMinProjection projection) {
+            id = projection.getId();
+            title = projection.getTitle();
+            year = projection.getYear();
+            imgUrl = projection.getImgUrl();
+            shortDescription = projection.getShortDescription();
         }
 
         public Long getId() {
