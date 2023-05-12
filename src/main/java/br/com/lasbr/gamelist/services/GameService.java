@@ -17,7 +17,7 @@ import java.util.List;
         private GameRepository gameRepository;
         @Transactional(readOnly = true)
         public GameDTO findById(Long id) {
-            Game result = gameRepository.findById(null).get();
+            Game result = gameRepository.findById(id).get();
             return new GameDTO(result);
         }
         @Transactional(readOnly = true)
