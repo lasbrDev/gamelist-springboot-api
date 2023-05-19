@@ -10,7 +10,7 @@ I will also implement a docker to make the app responsive and professional.
 - [Spring Data JPA @Query](https://www.baeldung.com/spring-data-jpa-query)
 - [Working with SQL Databases](https://docs.spring.io/spring-boot/docs/2.1.6.RELEASE/reference/html/boot-features-sql.html)
 - [Petri Kainulainen](https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-creating-database-queries-with-the-query-annotation/)
-
+- [How To Develop and Build Next.js App with Java Backend](https://medium.com/bb-tutorials-and-thoughts/how-to-develop-and-build-next-js-app-with-java-backend-c8101dedc79e)
 
 ## Stack
 
