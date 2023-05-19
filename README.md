@@ -12,7 +12,7 @@ I will also implement a docker to make the app responsive and professional.
 - [Petri Kainulainen](https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-creating-database-queries-with-the-query-annotation/)
 
 
-## Used Stack
+## Stack
 
 **Front-end:** Next.js
 
